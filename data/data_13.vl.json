@@ -1,0 +1,5581 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 800,
+      "continuousHeight": 600
+    },
+    "axisX": {
+      "labelFontSize": 18,
+      "titleFontSize": 20
+    },
+    "axisY": {
+      "labelFontSize": 18,
+      "titleFontSize": 20
+    },
+    "font": "Times New Roman",
+    "legend": {
+      "cornerRadius": 10,
+      "fillColor": "#EEEEEE",
+      "labelFontSize": 16,
+      "padding": 10,
+      "strokeColor": "gray",
+      "titleFontSize": 18
+    },
+    "title": {
+      "fontSize": 25
+    }
+  },
+  "data": {
+    "name": "data-a53df1296fb81e96108ead14570cce68"
+  },
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "color": {
+      "type": "ordinal",
+      "field": "config",
+      "scale": {
+        "scheme": "category20"
+      },
+      "title": "Configuration"
+    },
+    "x": {
+      "type": "quantitative",
+      "field": "time",
+      "title": "Time of day (sec)"
+    },
+    "y": {
+      "type": "quantitative",
+      "field": "rmse_hdg",
+      "scale": {
+        "domain": [
+          0,
+          15
+        ],
+        "zero": false
+      },
+      "title": "Heading (degrees)"
+    }
+  },
+  "selection": {
+    "selector032": {
+      "type": "interval",
+      "bind": "scales",
+      "encodings": [
+        "x",
+        "y"
+      ]
+    }
+  },
+  "title": "Initial Speed: 300kts, Acceleration: 3g",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
+  "datasets": {
+    "data-a53df1296fb81e96108ead14570cce68": [
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 8,
+        "rmse_hdg": 9.9732012162595,
+        "rmse_tr": 0.0
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 12,
+        "rmse_hdg": 7.797612271898183,
+        "rmse_tr": 8.017837257372731e-05
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 16,
+        "rmse_hdg": 4.444804082671511,
+        "rmse_tr": 0.0033670866824708
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 20,
+        "rmse_hdg": 3.763865621350532,
+        "rmse_tr": 0.0086443360331806
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 24,
+        "rmse_hdg": 3.161516172193693,
+        "rmse_tr": 0.0228902617832789
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 28,
+        "rmse_hdg": 3.0107609384624734,
+        "rmse_tr": 0.0454502160925241
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 32,
+        "rmse_hdg": 2.248291017639843,
+        "rmse_tr": 0.0256015109146142
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 36,
+        "rmse_hdg": 1.9612647501777651,
+        "rmse_tr": 0.0221909401803293
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 40,
+        "rmse_hdg": 1.8981927237344356,
+        "rmse_tr": 0.0220334397167901
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 44,
+        "rmse_hdg": 1.6212744943147344,
+        "rmse_tr": 0.0183762208562518
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 48,
+        "rmse_hdg": 1.3551524003480246,
+        "rmse_tr": 0.0164214390956405
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 52,
+        "rmse_hdg": 1.4176292190624904,
+        "rmse_tr": 0.0167354475733232
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 56,
+        "rmse_hdg": 1.2461888168187742,
+        "rmse_tr": 0.0173036446855275
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 60,
+        "rmse_hdg": 1.1280883535137365,
+        "rmse_tr": 0.0134940007246018
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 64,
+        "rmse_hdg": 1.1782264500373296,
+        "rmse_tr": 0.0144935027381796
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 68,
+        "rmse_hdg": 0.7410531030179529,
+        "rmse_tr": 0.0096638733311852
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 72,
+        "rmse_hdg": 0.7739780545890866,
+        "rmse_tr": 0.0102220066664943
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 76,
+        "rmse_hdg": 0.7515254756430693,
+        "rmse_tr": 0.0110504738800185
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 80,
+        "rmse_hdg": 0.5747881597348962,
+        "rmse_tr": 0.0068569672596564
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 84,
+        "rmse_hdg": 0.4960383594582728,
+        "rmse_tr": 0.0096752400626687
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 88,
+        "rmse_hdg": 0.5033090501868605,
+        "rmse_tr": 0.0058650782481688
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 92,
+        "rmse_hdg": 0.4097877833675142,
+        "rmse_tr": 0.0293087531924957
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 96,
+        "rmse_hdg": 0.3722864786991627,
+        "rmse_tr": 0.0224920726775753
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 100,
+        "rmse_hdg": 0.3557324672212169,
+        "rmse_tr": 0.0220654874248025
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 104,
+        "rmse_hdg": 0.3303178153762368,
+        "rmse_tr": 0.0163872803645534
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 108,
+        "rmse_hdg": 0.3185863466534189,
+        "rmse_tr": 0.0100909086982374
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 112,
+        "rmse_hdg": 0.3221056578120301,
+        "rmse_tr": 0.0150078198794577
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 116,
+        "rmse_hdg": 0.6557373167446152,
+        "rmse_tr": 0.0345749310504425
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 120,
+        "rmse_hdg": 0.3042192746829286,
+        "rmse_tr": 0.0220756782369252
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 124,
+        "rmse_hdg": 0.8638173081620567,
+        "rmse_tr": 0.0285938117147061
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 128,
+        "rmse_hdg": 0.719342648640998,
+        "rmse_tr": 0.0645790557723202
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 132,
+        "rmse_hdg": 0.7497801330616091,
+        "rmse_tr": 0.0552546292140918
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 136,
+        "rmse_hdg": 0.5236821387598976,
+        "rmse_tr": 0.0350291758095267
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 140,
+        "rmse_hdg": 0.5563688353886614,
+        "rmse_tr": 0.0385028785013869
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 144,
+        "rmse_hdg": 1.195915832698557,
+        "rmse_tr": 0.0513048104760328
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 148,
+        "rmse_hdg": 0.6805028073391471,
+        "rmse_tr": 0.0366797815108189
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 152,
+        "rmse_hdg": 0.9468176362761926,
+        "rmse_tr": 0.036706419597523
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 156,
+        "rmse_hdg": 0.5308212070425915,
+        "rmse_tr": 0.0287121322520905
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 160,
+        "rmse_hdg": 0.4488469219255417,
+        "rmse_tr": 0.0212929227519857
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 164,
+        "rmse_hdg": 0.4860525268152915,
+        "rmse_tr": 0.0185439450807983
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 168,
+        "rmse_hdg": 1.0036343546682582,
+        "rmse_tr": 1.412093401852567
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 172,
+        "rmse_hdg": 9.598801410492207,
+        "rmse_tr": 2.990817002878291
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 176,
+        "rmse_hdg": 16.718336942290147,
+        "rmse_tr": 2.823893496809105
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 180,
+        "rmse_hdg": 8.609530611643017,
+        "rmse_tr": 2.222198340996427
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 184,
+        "rmse_hdg": 5.514955331227859,
+        "rmse_tr": 1.4987115863710423
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 188,
+        "rmse_hdg": 5.465258199431621,
+        "rmse_tr": 0.8546499639139885
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 192,
+        "rmse_hdg": 5.98097468351283,
+        "rmse_tr": 0.525539857381368
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 196,
+        "rmse_hdg": 7.592574916201027,
+        "rmse_tr": 0.437943399494403
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 200,
+        "rmse_hdg": 8.800685620004964,
+        "rmse_tr": 0.4338744069324566
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 204,
+        "rmse_hdg": 9.551040460722218,
+        "rmse_tr": 0.4763582848510336
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 208,
+        "rmse_hdg": 7.768515871984451,
+        "rmse_tr": 0.4045336188267447
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 212,
+        "rmse_hdg": 10.139811080687048,
+        "rmse_tr": 0.6107564179145476
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 216,
+        "rmse_hdg": 11.744505837152916,
+        "rmse_tr": 0.6331440448164117
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 220,
+        "rmse_hdg": 11.634082264678394,
+        "rmse_tr": 0.6375468164679405
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 224,
+        "rmse_hdg": 8.897369884212216,
+        "rmse_tr": 0.474412665331594
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 228,
+        "rmse_hdg": 7.378494063970964,
+        "rmse_tr": 1.7225679472850115
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 232,
+        "rmse_hdg": 8.893990172809382,
+        "rmse_tr": 2.9399534819652167
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 236,
+        "rmse_hdg": 8.821386285612936,
+        "rmse_tr": 2.517576013523061
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 240,
+        "rmse_hdg": 6.415851068060746,
+        "rmse_tr": 1.8865229658619684
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 244,
+        "rmse_hdg": 4.779400590032189,
+        "rmse_tr": 1.387945386585098
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 248,
+        "rmse_hdg": 3.270021406657762,
+        "rmse_tr": 1.0417438803595953
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 252,
+        "rmse_hdg": 2.462329122169162,
+        "rmse_tr": 0.8195211744922619
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 256,
+        "rmse_hdg": 2.375594352875039,
+        "rmse_tr": 0.6457337591043687
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 260,
+        "rmse_hdg": 2.0536522344350328,
+        "rmse_tr": 0.4948839875415247
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 264,
+        "rmse_hdg": 1.4792227688891204,
+        "rmse_tr": 0.3893958610041511
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 268,
+        "rmse_hdg": 1.4858151215216744,
+        "rmse_tr": 0.3076674545718798
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 272,
+        "rmse_hdg": 1.072335146615397,
+        "rmse_tr": 0.2404376318299612
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 276,
+        "rmse_hdg": 0.9941185250215596,
+        "rmse_tr": 0.1911235565821152
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 280,
+        "rmse_hdg": 0.9782755097481374,
+        "rmse_tr": 0.1511981467961647
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 284,
+        "rmse_hdg": 0.8289647813361227,
+        "rmse_tr": 0.1113946776237471
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 288,
+        "rmse_hdg": 0.6827803754472503,
+        "rmse_tr": 0.0903537173921214
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 292,
+        "rmse_hdg": 0.5784329885321406,
+        "rmse_tr": 0.0733215350357587
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 296,
+        "rmse_hdg": 0.4684541105928559,
+        "rmse_tr": 0.055724861141628
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 300,
+        "rmse_hdg": 0.4099484680772354,
+        "rmse_tr": 0.0445126695051967
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 304,
+        "rmse_hdg": 0.4057987219542803,
+        "rmse_tr": 0.035756003423508
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 308,
+        "rmse_hdg": 0.2953883642161408,
+        "rmse_tr": 0.0326725682229866
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 312,
+        "rmse_hdg": 0.2897514147557201,
+        "rmse_tr": 0.0220795287140666
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 316,
+        "rmse_hdg": 0.3243184121082734,
+        "rmse_tr": 0.0243185809285488
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 320,
+        "rmse_hdg": 0.3239967793720766,
+        "rmse_tr": 0.014677035201935
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 324,
+        "rmse_hdg": 0.3777179282656992,
+        "rmse_tr": 0.0148780972499099
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 328,
+        "rmse_hdg": 0.3050555754441975,
+        "rmse_tr": 0.0123109595900318
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 332,
+        "rmse_hdg": 0.3559695011012697,
+        "rmse_tr": 0.0111429670324251
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 336,
+        "rmse_hdg": 0.9214345699324868,
+        "rmse_tr": 0.044179755922066
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 340,
+        "rmse_hdg": 0.3320369398301433,
+        "rmse_tr": 0.034300332274158
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 344,
+        "rmse_hdg": 0.3456623098233777,
+        "rmse_tr": 0.0309063668766407
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 348,
+        "rmse_hdg": 0.3217469918438482,
+        "rmse_tr": 0.0195359437599402
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 352,
+        "rmse_hdg": 0.3023452927636534,
+        "rmse_tr": 0.0128352288094739
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 356,
+        "rmse_hdg": 0.3223699248085198,
+        "rmse_tr": 0.0172289803284435
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 360,
+        "rmse_hdg": 0.2703623025643324,
+        "rmse_tr": 0.0111869390645432
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 364,
+        "rmse_hdg": 0.2497886430508426,
+        "rmse_tr": 0.0113684205550064
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 368,
+        "rmse_hdg": 1.2242430529235533,
+        "rmse_tr": 0.0336198739000108
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 372,
+        "rmse_hdg": 0.3296902366978967,
+        "rmse_tr": 0.0204435631767634
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 376,
+        "rmse_hdg": 0.3088210202288888,
+        "rmse_tr": 0.015877883457772
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 380,
+        "rmse_hdg": 0.2883814988671971,
+        "rmse_tr": 0.0163233600503491
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 384,
+        "rmse_hdg": 0.3238917756796878,
+        "rmse_tr": 0.0130633861928494
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 388,
+        "rmse_hdg": 0.327599788799718,
+        "rmse_tr": 0.0099414638108632
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 392,
+        "rmse_hdg": 0.2881803034975598,
+        "rmse_tr": 0.0093946418651616
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 396,
+        "rmse_hdg": 0.2857096428194219,
+        "rmse_tr": 0.0094491118252306
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 400,
+        "rmse_hdg": 0.2744921600810223,
+        "rmse_tr": 0.007135095976551
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 404,
+        "rmse_hdg": 0.3198437118343915,
+        "rmse_tr": 0.0079552979017685
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 408,
+        "rmse_hdg": 0.3105483501449922,
+        "rmse_tr": 0.0078206279941077
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 412,
+        "rmse_hdg": 0.2929433212648578,
+        "rmse_tr": 0.0072671213442173
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 416,
+        "rmse_hdg": 0.3326933249779003,
+        "rmse_tr": 0.0053168257789433
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 420,
+        "rmse_hdg": 0.2662007835128558,
+        "rmse_tr": 0.0072676976114467
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 424,
+        "rmse_hdg": 0.2618417673158946,
+        "rmse_tr": 0.0066815458956408
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 428,
+        "rmse_hdg": 0.2846355411826646,
+        "rmse_tr": 0.0074099424003707
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 432,
+        "rmse_hdg": 0.2941609536744592,
+        "rmse_tr": 0.0051535489389998
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 436,
+        "rmse_hdg": 0.2894384681856762,
+        "rmse_tr": 0.0140596862027359
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 440,
+        "rmse_hdg": 0.2837792569351492,
+        "rmse_tr": 0.0116858261724763
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 444,
+        "rmse_hdg": 0.2916547616617986,
+        "rmse_tr": 0.0102257368655977
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 448,
+        "rmse_hdg": 1.1609364485190403,
+        "rmse_tr": 0.0476653372483611
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 452,
+        "rmse_hdg": 0.2981588524573808,
+        "rmse_tr": 0.021244974959716
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 456,
+        "rmse_hdg": 0.3097956315594748,
+        "rmse_tr": 0.0102449727508991
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 460,
+        "rmse_hdg": 0.3210254708604558,
+        "rmse_tr": 0.022328111402972
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 464,
+        "rmse_hdg": 0.366867369313033,
+        "rmse_tr": 0.0119230286048097
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 468,
+        "rmse_hdg": 0.3244489532849069,
+        "rmse_tr": 0.0101215015941582
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 472,
+        "rmse_hdg": 0.2915803793931602,
+        "rmse_tr": 0.0123879982240876
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 476,
+        "rmse_hdg": 0.7826548719893401,
+        "rmse_tr": 0.0377390632089866
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 480,
+        "rmse_hdg": 0.3187706164036333,
+        "rmse_tr": 0.0301191359926073
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 484,
+        "rmse_hdg": 0.2890261426084319,
+        "rmse_tr": 0.025714427964774
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 488,
+        "rmse_hdg": 0.3162106721620719,
+        "rmse_tr": 0.0168447882709131
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 492,
+        "rmse_hdg": 0.273206498906553,
+        "rmse_tr": 0.0175735214660129
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 496,
+        "rmse_hdg": 0.400179754131111,
+        "rmse_tr": 0.0147242880145101
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 500,
+        "rmse_hdg": 0.318514287515258,
+        "rmse_tr": 0.0114025246137672
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 504,
+        "rmse_hdg": 0.3071610120505955,
+        "rmse_tr": 0.0106710019065756
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 508,
+        "rmse_hdg": 0.4345711159229546,
+        "rmse_tr": 0.0088424722260515
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 512,
+        "rmse_hdg": 0.4374850290980618,
+        "rmse_tr": 0.0119709637290712
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 516,
+        "rmse_hdg": 0.3764325295127451,
+        "rmse_tr": 0.0127511579468496
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 520,
+        "rmse_hdg": 0.4179860389619756,
+        "rmse_tr": 0.0097337359959244
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 524,
+        "rmse_hdg": 1.2396274115245214,
+        "rmse_tr": 0.0222627860294044
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 528,
+        "rmse_hdg": 0.4061144980264117,
+        "rmse_tr": 0.0178362153976157
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 532,
+        "rmse_hdg": 0.5669311765144922,
+        "rmse_tr": 0.0141257173414647
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 536,
+        "rmse_hdg": 0.3552484631750524,
+        "rmse_tr": 0.0139810428374828
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 540,
+        "rmse_hdg": 0.3579344985652508,
+        "rmse_tr": 0.0076443477571064
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 544,
+        "rmse_hdg": 0.5578517091591327,
+        "rmse_tr": 0.0078029500454484
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 548,
+        "rmse_hdg": 0.4074292946475324,
+        "rmse_tr": 0.0101180971734293
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 552,
+        "rmse_hdg": 0.3659177156792014,
+        "rmse_tr": 0.0099295759664368
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 556,
+        "rmse_hdg": 0.3500127929431735,
+        "rmse_tr": 0.0085266308021293
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 560,
+        "rmse_hdg": 0.3556941240155027,
+        "rmse_tr": 0.0098587131691774
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 564,
+        "rmse_hdg": 4.365565564001988,
+        "rmse_tr": 2.5453360897924657
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 568,
+        "rmse_hdg": 15.004481837007951,
+        "rmse_tr": 2.981922858429304
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 572,
+        "rmse_hdg": 17.580363863494327,
+        "rmse_tr": 2.746135289612867
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 576,
+        "rmse_hdg": 8.106336587323916,
+        "rmse_tr": 2.2168520654915094
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 580,
+        "rmse_hdg": 5.528286547810801,
+        "rmse_tr": 1.6084858337433192
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 584,
+        "rmse_hdg": 5.568303510298271,
+        "rmse_tr": 1.2463418103661077
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 588,
+        "rmse_hdg": 6.419032400008674,
+        "rmse_tr": 0.9508234016425506
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 592,
+        "rmse_hdg": 8.278378166956303,
+        "rmse_tr": 0.76555596945038
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 596,
+        "rmse_hdg": 10.210631333167733,
+        "rmse_tr": 0.6434793249203894
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 600,
+        "rmse_hdg": 11.266419608042195,
+        "rmse_tr": 0.5388117101133046
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 604,
+        "rmse_hdg": 11.198411006797445,
+        "rmse_tr": 0.4411913011259278
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 608,
+        "rmse_hdg": 11.29724791230865,
+        "rmse_tr": 0.3556963404670079
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 612,
+        "rmse_hdg": 10.815519046825887,
+        "rmse_tr": 0.3322089638071236
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 616,
+        "rmse_hdg": 9.434131329418426,
+        "rmse_tr": 0.3289005839807177
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 620,
+        "rmse_hdg": 10.12897830977336,
+        "rmse_tr": 0.3443532666514449
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 624,
+        "rmse_hdg": 8.78639866864393,
+        "rmse_tr": 2.7235610834112878
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 628,
+        "rmse_hdg": 9.36540835260861,
+        "rmse_tr": 2.954071359957681
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 632,
+        "rmse_hdg": 10.764247159063585,
+        "rmse_tr": 2.4420998961007334
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 636,
+        "rmse_hdg": 7.097492514966113,
+        "rmse_tr": 1.7774605733253346
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 640,
+        "rmse_hdg": 4.382534882918789,
+        "rmse_tr": 1.3625796351528718
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 644,
+        "rmse_hdg": 3.86340921586502,
+        "rmse_tr": 1.041333158836454
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 648,
+        "rmse_hdg": 4.068338274503422,
+        "rmse_tr": 0.844175828062028
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 652,
+        "rmse_hdg": 3.353499296890724,
+        "rmse_tr": 0.6379802062459649
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 656,
+        "rmse_hdg": 3.013799575085888,
+        "rmse_tr": 0.5032028960026508
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 660,
+        "rmse_hdg": 2.818079837868818,
+        "rmse_tr": 0.3947747623819165
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 664,
+        "rmse_hdg": 2.453936500365502,
+        "rmse_tr": 0.3031732546232279
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 668,
+        "rmse_hdg": 2.9498246079032078,
+        "rmse_tr": 0.242454891068212
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 672,
+        "rmse_hdg": 1.6825401431565703,
+        "rmse_tr": 0.1862837065696657
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 676,
+        "rmse_hdg": 1.6815678958148836,
+        "rmse_tr": 0.145601737222991
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 680,
+        "rmse_hdg": 1.3373825182048693,
+        "rmse_tr": 0.1193712740430739
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 684,
+        "rmse_hdg": 1.1656114275349232,
+        "rmse_tr": 0.0916117433944894
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 688,
+        "rmse_hdg": 1.9721251511859732,
+        "rmse_tr": 0.1049273750260185
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 692,
+        "rmse_hdg": 0.962565565316186,
+        "rmse_tr": 0.0664672197304904
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 696,
+        "rmse_hdg": 0.7392939574726385,
+        "rmse_tr": 0.0410915289323724
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 700,
+        "rmse_hdg": 1.6612116920231106,
+        "rmse_tr": 0.0604293199886091
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 704,
+        "rmse_hdg": 0.6825996290074633,
+        "rmse_tr": 0.0411161854289202
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 708,
+        "rmse_hdg": 0.6463487190879759,
+        "rmse_tr": 0.033863697376394
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 712,
+        "rmse_hdg": 0.795869773048438,
+        "rmse_tr": 0.0541833869400008
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 716,
+        "rmse_hdg": 0.5059459786709767,
+        "rmse_tr": 0.0192692777930743
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 720,
+        "rmse_hdg": 1.6412980900159035,
+        "rmse_tr": 0.0675458395075715
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 724,
+        "rmse_hdg": 0.5112938769156437,
+        "rmse_tr": 0.0468414849709711
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 728,
+        "rmse_hdg": 0.4536171217565375,
+        "rmse_tr": 0.020991665012571
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 732,
+        "rmse_hdg": 0.3708253343171536,
+        "rmse_tr": 0.0328709033297578
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 736,
+        "rmse_hdg": 0.4427297020091336,
+        "rmse_tr": 0.0190092118980851
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 740,
+        "rmse_hdg": 0.5986767816517433,
+        "rmse_tr": 0.0372365728969666
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 744,
+        "rmse_hdg": 0.338457419267969,
+        "rmse_tr": 0.029297809539889
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 748,
+        "rmse_hdg": 0.3506172163947922,
+        "rmse_tr": 0.022154158904295
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 752,
+        "rmse_hdg": 0.3283962814147865,
+        "rmse_tr": 0.0163477107589663
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 756,
+        "rmse_hdg": 0.3140265531071178,
+        "rmse_tr": 0.0147547748299216
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 760,
+        "rmse_hdg": 0.3161940332559523,
+        "rmse_tr": 0.0133664904394035
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 764,
+        "rmse_hdg": 0.3090093278622551,
+        "rmse_tr": 0.0095090900783222
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 768,
+        "rmse_hdg": 0.2881607532581587,
+        "rmse_tr": 0.0084904005446416
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 772,
+        "rmse_hdg": 0.3020927010041794,
+        "rmse_tr": 0.0134483934250261
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 776,
+        "rmse_hdg": 0.3209553376517104,
+        "rmse_tr": 0.0123765409999437
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 780,
+        "rmse_hdg": 0.2910166089189184,
+        "rmse_tr": 0.0256492547000232
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 784,
+        "rmse_hdg": 0.3184031988139029,
+        "rmse_tr": 0.0282573646456356
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarOnly",
+        "time": 788,
+        "rmse_hdg": 0.394466728635001,
+        "rmse_tr": 0.0147382947905561
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 4,
+        "rmse_hdg": 5.255126292392343,
+        "rmse_tr": 0.0
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 8,
+        "rmse_hdg": 4.524801819066941,
+        "rmse_tr": 0.0001741541567969
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 12,
+        "rmse_hdg": 2.321136358052665,
+        "rmse_tr": 0.0015994161022485
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 16,
+        "rmse_hdg": 1.958557886121467,
+        "rmse_tr": 0.0046591362220448
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 20,
+        "rmse_hdg": 1.555769194075682,
+        "rmse_tr": 0.0074404774509426
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 24,
+        "rmse_hdg": 1.1276534808536516,
+        "rmse_tr": 0.0075031857640717
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 28,
+        "rmse_hdg": 0.843243858015955,
+        "rmse_tr": 0.0067402739200277
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 32,
+        "rmse_hdg": 0.563155928054687,
+        "rmse_tr": 0.0070946684600121
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 36,
+        "rmse_hdg": 0.3559836937893398,
+        "rmse_tr": 0.0055568177040924
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 40,
+        "rmse_hdg": 0.2235520459342279,
+        "rmse_tr": 0.004776515827282
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 44,
+        "rmse_hdg": 0.1473429045011981,
+        "rmse_tr": 0.0040824213873094
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 48,
+        "rmse_hdg": 0.1081904451132035,
+        "rmse_tr": 0.0038400924917021
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 52,
+        "rmse_hdg": 0.1109403906170801,
+        "rmse_tr": 0.0036698875084019
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 56,
+        "rmse_hdg": 0.1013532595503295,
+        "rmse_tr": 0.0033905811107325
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 60,
+        "rmse_hdg": 0.107377996487608,
+        "rmse_tr": 0.0036546104408545
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 64,
+        "rmse_hdg": 0.0962313512997352,
+        "rmse_tr": 0.0034847156617496
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 68,
+        "rmse_hdg": 0.0960896533270362,
+        "rmse_tr": 0.0034387058592699
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 72,
+        "rmse_hdg": 0.1045892339097548,
+        "rmse_tr": 0.0031247334357299
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 76,
+        "rmse_hdg": 0.10464060001937,
+        "rmse_tr": 0.0036873174998672
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 80,
+        "rmse_hdg": 0.1074932301149606,
+        "rmse_tr": 0.0036902917804229
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 84,
+        "rmse_hdg": 0.1012824342514003,
+        "rmse_tr": 0.0035219578150811
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 88,
+        "rmse_hdg": 0.10384758330116,
+        "rmse_tr": 0.0039624984199647
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 92,
+        "rmse_hdg": 0.0923718048734056,
+        "rmse_tr": 0.0036698801253212
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 96,
+        "rmse_hdg": 0.0981501253130941,
+        "rmse_tr": 0.0038486644995419
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 100,
+        "rmse_hdg": 0.0957061179703215,
+        "rmse_tr": 0.0033492017768974
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 104,
+        "rmse_hdg": 0.0943557099491068,
+        "rmse_tr": 0.0036697956346368
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 108,
+        "rmse_hdg": 0.0971015767957255,
+        "rmse_tr": 0.0036594333854714
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 112,
+        "rmse_hdg": 0.0985370809086266,
+        "rmse_tr": 0.0035242698273117
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 116,
+        "rmse_hdg": 0.1011356914923979,
+        "rmse_tr": 0.002995950444107
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 120,
+        "rmse_hdg": 0.1019485917429064,
+        "rmse_tr": 0.0027138564930457
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 124,
+        "rmse_hdg": 0.089336000876643,
+        "rmse_tr": 0.0073186787885878
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 128,
+        "rmse_hdg": 0.1010872570622657,
+        "rmse_tr": 0.010370092568332
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 132,
+        "rmse_hdg": 0.1048942087584243,
+        "rmse_tr": 0.0166135131707828
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 136,
+        "rmse_hdg": 0.1184619380612639,
+        "rmse_tr": 0.0085576452548403
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 140,
+        "rmse_hdg": 0.1250418890057096,
+        "rmse_tr": 0.0048808400289682
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 144,
+        "rmse_hdg": 0.1168436520500376,
+        "rmse_tr": 0.0042445589273568
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 148,
+        "rmse_hdg": 0.1261490398176442,
+        "rmse_tr": 0.0041486015790538
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 152,
+        "rmse_hdg": 0.1186387360881715,
+        "rmse_tr": 0.0044516464020205
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 156,
+        "rmse_hdg": 0.1277381489623027,
+        "rmse_tr": 0.0056458102608551
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 160,
+        "rmse_hdg": 0.1327258417502895,
+        "rmse_tr": 0.0043393691043287
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 164,
+        "rmse_hdg": 0.1153405751496934,
+        "rmse_tr": 0.0036041164204855
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 168,
+        "rmse_hdg": 1.3659262363818352,
+        "rmse_tr": 1.4377716300448458
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 172,
+        "rmse_hdg": 10.602791771537992,
+        "rmse_tr": 2.972746858552078
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 176,
+        "rmse_hdg": 9.723341754870082,
+        "rmse_tr": 2.356345762063251
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 180,
+        "rmse_hdg": 5.917851892667161,
+        "rmse_tr": 1.1809972098676569
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 184,
+        "rmse_hdg": 2.2937106104473006,
+        "rmse_tr": 0.2299968523390908
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 188,
+        "rmse_hdg": 1.9942248866697316,
+        "rmse_tr": 0.2771658721951124
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 192,
+        "rmse_hdg": 2.4896576264450268,
+        "rmse_tr": 0.183312104944858
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 196,
+        "rmse_hdg": 2.8960854859844223,
+        "rmse_tr": 0.1136592806061222
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 200,
+        "rmse_hdg": 2.605591714729119,
+        "rmse_tr": 0.1040721679171205
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 204,
+        "rmse_hdg": 2.49549683710233,
+        "rmse_tr": 0.1097667274170673
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 208,
+        "rmse_hdg": 2.450688837341276,
+        "rmse_tr": 0.1163568242758264
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 212,
+        "rmse_hdg": 2.703903915137349,
+        "rmse_tr": 0.2139779266232085
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 216,
+        "rmse_hdg": 2.524917676023209,
+        "rmse_tr": 0.0972731458103074
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 220,
+        "rmse_hdg": 2.390913144024275,
+        "rmse_tr": 0.1037332711640375
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 224,
+        "rmse_hdg": 2.454098059648364,
+        "rmse_tr": 0.0975830915695643
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 228,
+        "rmse_hdg": 2.4033555061920904,
+        "rmse_tr": 1.531449698244583
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 232,
+        "rmse_hdg": 5.0477284197263135,
+        "rmse_tr": 2.7507890812740183
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 236,
+        "rmse_hdg": 3.1756657986325973,
+        "rmse_tr": 1.4693089947529263
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 240,
+        "rmse_hdg": 1.034459164352015,
+        "rmse_tr": 0.5766009633612769
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 244,
+        "rmse_hdg": 0.5757690509223304,
+        "rmse_tr": 0.2124061837612078
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 248,
+        "rmse_hdg": 0.3866045618565837,
+        "rmse_tr": 0.0744648800153783
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 252,
+        "rmse_hdg": 0.2452449484612534,
+        "rmse_tr": 0.0247037690118295
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 256,
+        "rmse_hdg": 0.1590217578291939,
+        "rmse_tr": 0.0088952687069659
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 260,
+        "rmse_hdg": 0.1338527410679015,
+        "rmse_tr": 0.0052105788978127
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 264,
+        "rmse_hdg": 0.1148552312170899,
+        "rmse_tr": 0.0046754642033964
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 268,
+        "rmse_hdg": 0.1054612201973665,
+        "rmse_tr": 0.0041665788496492
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 272,
+        "rmse_hdg": 0.0991477287124806,
+        "rmse_tr": 0.0035043025061232
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 276,
+        "rmse_hdg": 0.0837519311115416,
+        "rmse_tr": 0.0028079336224473
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 280,
+        "rmse_hdg": 0.0982803529591634,
+        "rmse_tr": 0.003787983559157
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 284,
+        "rmse_hdg": 0.1181115678744195,
+        "rmse_tr": 0.0042714968022353
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 288,
+        "rmse_hdg": 0.1089158906352818,
+        "rmse_tr": 0.0038216578199978
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 292,
+        "rmse_hdg": 0.1051222158827948,
+        "rmse_tr": 0.0035113179493598
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 296,
+        "rmse_hdg": 0.0997320825728343,
+        "rmse_tr": 0.0036541129985292
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 300,
+        "rmse_hdg": 0.0958267721999967,
+        "rmse_tr": 0.0038759436514465
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 304,
+        "rmse_hdg": 0.1016991242066859,
+        "rmse_tr": 0.003197159756483
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 308,
+        "rmse_hdg": 0.1093819307731432,
+        "rmse_tr": 0.0033924692272188
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 312,
+        "rmse_hdg": 0.108677386841855,
+        "rmse_tr": 0.0035846614874766
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 316,
+        "rmse_hdg": 0.1029731042923964,
+        "rmse_tr": 0.0031829128571255
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 320,
+        "rmse_hdg": 0.1020875849454767,
+        "rmse_tr": 0.0038868412267832
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 324,
+        "rmse_hdg": 0.1076889372985657,
+        "rmse_tr": 0.0036374200667874
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 328,
+        "rmse_hdg": 0.0903539140670389,
+        "rmse_tr": 0.0033740299367646
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 332,
+        "rmse_hdg": 0.0980588626312815,
+        "rmse_tr": 0.0037464217162081
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 336,
+        "rmse_hdg": 0.1147631832744901,
+        "rmse_tr": 0.0036625099643215
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 340,
+        "rmse_hdg": 0.100008771545122,
+        "rmse_tr": 0.0030316748888327
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 344,
+        "rmse_hdg": 0.0977139357770068,
+        "rmse_tr": 0.0035662277174137
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 348,
+        "rmse_hdg": 0.1088538127139926,
+        "rmse_tr": 0.0038572186343556
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 352,
+        "rmse_hdg": 0.0987003082150738,
+        "rmse_tr": 0.0032505736349495
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 356,
+        "rmse_hdg": 0.0908377400457065,
+        "rmse_tr": 0.0035017650983449
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 360,
+        "rmse_hdg": 0.102602947642185,
+        "rmse_tr": 0.0038711336421874
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 364,
+        "rmse_hdg": 0.1059135830516075,
+        "rmse_tr": 0.003325289614516
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 368,
+        "rmse_hdg": 0.1074506285877059,
+        "rmse_tr": 0.0033863028482204
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 372,
+        "rmse_hdg": 0.1031752823542955,
+        "rmse_tr": 0.0038556010844253
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 376,
+        "rmse_hdg": 0.1042828504212751,
+        "rmse_tr": 0.0035008809244798
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 380,
+        "rmse_hdg": 0.1083199957372131,
+        "rmse_tr": 0.0036433630013672
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 384,
+        "rmse_hdg": 0.1146319892427345,
+        "rmse_tr": 0.003642757622817
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 388,
+        "rmse_hdg": 0.1099795514179967,
+        "rmse_tr": 0.0035261749863842
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 392,
+        "rmse_hdg": 0.1163212780648474,
+        "rmse_tr": 0.0043297265487016
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 396,
+        "rmse_hdg": 0.1167152474169148,
+        "rmse_tr": 0.0040075778560258
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 400,
+        "rmse_hdg": 0.1114873599926321,
+        "rmse_tr": 0.0035928021688856
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 404,
+        "rmse_hdg": 0.0962758932394167,
+        "rmse_tr": 0.0037885748401909
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 408,
+        "rmse_hdg": 0.1036627857736913,
+        "rmse_tr": 0.0034098357534889
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 412,
+        "rmse_hdg": 0.0971756020979423,
+        "rmse_tr": 0.0031532837888776
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 416,
+        "rmse_hdg": 0.0885565810159648,
+        "rmse_tr": 0.0032911314759141
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 420,
+        "rmse_hdg": 0.0882617474018139,
+        "rmse_tr": 0.0035980814993813
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 424,
+        "rmse_hdg": 0.0943250879788746,
+        "rmse_tr": 0.0032821857131423
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 428,
+        "rmse_hdg": 0.0949622670739915,
+        "rmse_tr": 0.003003721468003
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 432,
+        "rmse_hdg": 0.0902802052717968,
+        "rmse_tr": 0.0031204843663143
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 436,
+        "rmse_hdg": 0.0957626550963968,
+        "rmse_tr": 0.0033748816851689
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 440,
+        "rmse_hdg": 0.0989121718871848,
+        "rmse_tr": 0.0037426743007509
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 444,
+        "rmse_hdg": 0.0975799313558524,
+        "rmse_tr": 0.0031820958169728
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 448,
+        "rmse_hdg": 0.0885099244944108,
+        "rmse_tr": 0.0031916241392846
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 452,
+        "rmse_hdg": 0.0893403319629733,
+        "rmse_tr": 0.0032381832110729
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 456,
+        "rmse_hdg": 0.0942957812002209,
+        "rmse_tr": 0.0033744840875521
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 460,
+        "rmse_hdg": 0.0940302872230751,
+        "rmse_tr": 0.0033268909494948
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 464,
+        "rmse_hdg": 0.0942855296010476,
+        "rmse_tr": 0.0031993013315783
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 468,
+        "rmse_hdg": 0.0948843535075234,
+        "rmse_tr": 0.0032433924515227
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 472,
+        "rmse_hdg": 0.1057630046320016,
+        "rmse_tr": 0.0030165747435445
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 476,
+        "rmse_hdg": 0.095444339764739,
+        "rmse_tr": 0.0029735257977867
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 480,
+        "rmse_hdg": 0.0915567522845188,
+        "rmse_tr": 0.0032858704241714
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 484,
+        "rmse_hdg": 0.0924043643606769,
+        "rmse_tr": 0.0033681199625178
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 488,
+        "rmse_hdg": 0.0904771303209333,
+        "rmse_tr": 0.0036160377717422
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 492,
+        "rmse_hdg": 0.1064887906915806,
+        "rmse_tr": 0.0035244653027236
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 496,
+        "rmse_hdg": 0.0994766711752447,
+        "rmse_tr": 0.0030814999418938
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 500,
+        "rmse_hdg": 0.098647954458867,
+        "rmse_tr": 0.0036052092565874
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 504,
+        "rmse_hdg": 0.1000979586650193,
+        "rmse_tr": 0.0035882097443481
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 508,
+        "rmse_hdg": 0.1064713513046984,
+        "rmse_tr": 0.0036606471883859
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 512,
+        "rmse_hdg": 0.107783032665556,
+        "rmse_tr": 0.0036080713260907
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 516,
+        "rmse_hdg": 0.1040919551893195,
+        "rmse_tr": 0.0034477274144462
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 520,
+        "rmse_hdg": 0.104765249848208,
+        "rmse_tr": 0.0033720179493153
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 524,
+        "rmse_hdg": 0.0999982455986434,
+        "rmse_tr": 0.0036408982890046
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 528,
+        "rmse_hdg": 0.100810947928397,
+        "rmse_tr": 0.0047058806295952
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 532,
+        "rmse_hdg": 0.0999336514587417,
+        "rmse_tr": 0.0034346820546196
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 536,
+        "rmse_hdg": 0.0984724316140613,
+        "rmse_tr": 0.0032083371957818
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 540,
+        "rmse_hdg": 0.0985728673088658,
+        "rmse_tr": 0.0031038685539178
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 544,
+        "rmse_hdg": 0.0991498343678504,
+        "rmse_tr": 0.0035771834422224
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 548,
+        "rmse_hdg": 0.10363528857268,
+        "rmse_tr": 0.0038905635377973
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 552,
+        "rmse_hdg": 0.1043793538251255,
+        "rmse_tr": 0.0039517260297066
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 556,
+        "rmse_hdg": 0.1153787020986068,
+        "rmse_tr": 0.0037030645518043
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 560,
+        "rmse_hdg": 0.1094133619983579,
+        "rmse_tr": 0.0030905697891524
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 564,
+        "rmse_hdg": 5.419913879290867,
+        "rmse_tr": 2.6011315438853373
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 568,
+        "rmse_hdg": 12.038013386507997,
+        "rmse_tr": 2.7783189996063955
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 572,
+        "rmse_hdg": 7.301169260335565,
+        "rmse_tr": 1.802416325275792
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 576,
+        "rmse_hdg": 4.17868396310037,
+        "rmse_tr": 0.6525161154619095
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 580,
+        "rmse_hdg": 1.4739703048253876,
+        "rmse_tr": 0.2286129825925447
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 584,
+        "rmse_hdg": 2.236343781408807,
+        "rmse_tr": 0.2080338849602792
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 588,
+        "rmse_hdg": 3.0197807135275725,
+        "rmse_tr": 0.1136139708808311
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 592,
+        "rmse_hdg": 2.725182121849997,
+        "rmse_tr": 0.1040728576081278
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 596,
+        "rmse_hdg": 2.63125853868565,
+        "rmse_tr": 0.1090835742789646
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 600,
+        "rmse_hdg": 2.451691005715913,
+        "rmse_tr": 0.0981871352143176
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 604,
+        "rmse_hdg": 2.4780826234703643,
+        "rmse_tr": 0.1052067987749583
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 608,
+        "rmse_hdg": 2.809301670043827,
+        "rmse_tr": 0.0940545664578382
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 612,
+        "rmse_hdg": 2.3581259495824134,
+        "rmse_tr": 0.0942451166555743
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 616,
+        "rmse_hdg": 2.377860006172084,
+        "rmse_tr": 0.0941907281903427
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 620,
+        "rmse_hdg": 2.4065448085986483,
+        "rmse_tr": 0.0848146374403494
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 624,
+        "rmse_hdg": 3.276061731919819,
+        "rmse_tr": 2.553424543566655
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 628,
+        "rmse_hdg": 4.327755844368322,
+        "rmse_tr": 2.134925257030279
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 632,
+        "rmse_hdg": 1.5068966307714635,
+        "rmse_tr": 0.8881301140230686
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 636,
+        "rmse_hdg": 0.6461215346532432,
+        "rmse_tr": 0.3433842887510903
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 640,
+        "rmse_hdg": 0.4385727705698616,
+        "rmse_tr": 0.1282648894948773
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 644,
+        "rmse_hdg": 0.3116502432629796,
+        "rmse_tr": 0.0478343404456894
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 648,
+        "rmse_hdg": 0.2201181200059798,
+        "rmse_tr": 0.0174626005285164
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 652,
+        "rmse_hdg": 0.1537083687580561,
+        "rmse_tr": 0.0069854104815651
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 656,
+        "rmse_hdg": 0.1135101923105991,
+        "rmse_tr": 0.0042303275453491
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 660,
+        "rmse_hdg": 0.0975444270793431,
+        "rmse_tr": 0.0037093240281434
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 664,
+        "rmse_hdg": 0.1047612241688068,
+        "rmse_tr": 0.003708808128221
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 668,
+        "rmse_hdg": 0.1006809010469035,
+        "rmse_tr": 0.0036569880562883
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 672,
+        "rmse_hdg": 0.0992092019594183,
+        "rmse_tr": 0.0035418631425491
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 676,
+        "rmse_hdg": 0.1089551654130055,
+        "rmse_tr": 0.0035132580970006
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 680,
+        "rmse_hdg": 0.1139222360299731,
+        "rmse_tr": 0.0034383536557586
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 684,
+        "rmse_hdg": 0.1082633176378125,
+        "rmse_tr": 0.0036918189320478
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 688,
+        "rmse_hdg": 0.1194562332683673,
+        "rmse_tr": 0.0040510629606451
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 692,
+        "rmse_hdg": 0.1076920898065239,
+        "rmse_tr": 0.0038505351173122
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 696,
+        "rmse_hdg": 0.1120734808787478,
+        "rmse_tr": 0.0039799080107568
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 700,
+        "rmse_hdg": 0.112239222634706,
+        "rmse_tr": 0.00363627903942
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 704,
+        "rmse_hdg": 0.0977513501721648,
+        "rmse_tr": 0.0031991837446921
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 708,
+        "rmse_hdg": 0.0868141712896014,
+        "rmse_tr": 0.0032879230085933
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 712,
+        "rmse_hdg": 0.1036503247969268,
+        "rmse_tr": 0.0038901265719463
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 716,
+        "rmse_hdg": 0.1152377096688827,
+        "rmse_tr": 0.0040811655396665
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 720,
+        "rmse_hdg": 0.1185348702446564,
+        "rmse_tr": 0.0039866055805638
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 724,
+        "rmse_hdg": 0.1104976118394521,
+        "rmse_tr": 0.0038645064008515
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 728,
+        "rmse_hdg": 0.10906332879837,
+        "rmse_tr": 0.0040996370841152
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 732,
+        "rmse_hdg": 0.1061571381447998,
+        "rmse_tr": 0.0035174378939761
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 736,
+        "rmse_hdg": 0.104611866495555,
+        "rmse_tr": 0.0038270514791487
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 740,
+        "rmse_hdg": 0.1074946605223546,
+        "rmse_tr": 0.0038597433914211
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 744,
+        "rmse_hdg": 0.106924159663438,
+        "rmse_tr": 0.0035618707271492
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 748,
+        "rmse_hdg": 0.101571543866823,
+        "rmse_tr": 0.0035703194826308
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 752,
+        "rmse_hdg": 0.0986171509715898,
+        "rmse_tr": 0.0036972268393175
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 756,
+        "rmse_hdg": 0.1027579550420052,
+        "rmse_tr": 0.0033539673507603
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 760,
+        "rmse_hdg": 0.1054924957836652,
+        "rmse_tr": 0.0034943096600043
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 764,
+        "rmse_hdg": 0.100882469870997,
+        "rmse_tr": 0.0036009517001555
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 768,
+        "rmse_hdg": 0.0959563049348371,
+        "rmse_tr": 0.0033689915117477
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 772,
+        "rmse_hdg": 0.0802470587852661,
+        "rmse_tr": 0.0033692091009419
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 776,
+        "rmse_hdg": 0.1013140612506091,
+        "rmse_tr": 0.0036287074462536
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 780,
+        "rmse_hdg": 0.1128002251105154,
+        "rmse_tr": 0.0035115752034601
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 784,
+        "rmse_hdg": 0.1044491359137409,
+        "rmse_tr": 0.0034641462553348
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM4_RadarADSB",
+        "time": 788,
+        "rmse_hdg": 0.0962120406017709,
+        "rmse_tr": 0.0038746359898775
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 8,
+        "rmse_hdg": 9.9732012162595,
+        "rmse_tr": 0.0
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 12,
+        "rmse_hdg": 7.772808257913335,
+        "rmse_tr": 4.0089186286863656e-05
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 16,
+        "rmse_hdg": 4.28706687890945,
+        "rmse_tr": 0.0013851484987669
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 20,
+        "rmse_hdg": 4.082771372232601,
+        "rmse_tr": 0.0087451804908864
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 24,
+        "rmse_hdg": 4.115977456514456,
+        "rmse_tr": 0.0144636650138822
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 28,
+        "rmse_hdg": 3.234480748788856,
+        "rmse_tr": 0.0068432135308326
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 32,
+        "rmse_hdg": 2.425557209751561,
+        "rmse_tr": 0.0049617845132125
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 36,
+        "rmse_hdg": 2.6241440288326348,
+        "rmse_tr": 0.0087280407682465
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 40,
+        "rmse_hdg": 2.503838970269673,
+        "rmse_tr": 0.0126392029833686
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 44,
+        "rmse_hdg": 1.7645882893711824,
+        "rmse_tr": 0.0130141634654028
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 48,
+        "rmse_hdg": 1.6868630775061508,
+        "rmse_tr": 0.009070024923487
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 52,
+        "rmse_hdg": 1.8847644378811297,
+        "rmse_tr": 0.0132028172585113
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 56,
+        "rmse_hdg": 1.948375519292702,
+        "rmse_tr": 0.0200119740275069
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 60,
+        "rmse_hdg": 1.17638806900142,
+        "rmse_tr": 0.0112610131278969
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 64,
+        "rmse_hdg": 1.0924402389493335,
+        "rmse_tr": 0.0097832454682427
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 68,
+        "rmse_hdg": 0.8192360839184452,
+        "rmse_tr": 0.0065055888716675
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 72,
+        "rmse_hdg": 1.345089835909359,
+        "rmse_tr": 0.0080141451034486
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 76,
+        "rmse_hdg": 0.6774006359766883,
+        "rmse_tr": 0.0071140325736855
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 80,
+        "rmse_hdg": 0.5795614105264675,
+        "rmse_tr": 0.0048414726213061
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 84,
+        "rmse_hdg": 1.2292779686972035,
+        "rmse_tr": 0.0077121087661949
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 88,
+        "rmse_hdg": 0.5372216887441741,
+        "rmse_tr": 0.0034537143566228
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 92,
+        "rmse_hdg": 1.4147476661596268,
+        "rmse_tr": 0.0075797495169514
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 96,
+        "rmse_hdg": 0.6552289676136116,
+        "rmse_tr": 0.0051109903367373
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 100,
+        "rmse_hdg": 0.6208651459147666,
+        "rmse_tr": 0.0043625073740035
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 104,
+        "rmse_hdg": 1.207828921753968,
+        "rmse_tr": 0.0074093488718122
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 108,
+        "rmse_hdg": 0.4338881239554609,
+        "rmse_tr": 0.0059839854772367
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 112,
+        "rmse_hdg": 1.0024647706719465,
+        "rmse_tr": 0.007785761503654
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 116,
+        "rmse_hdg": 1.008264421100509,
+        "rmse_tr": 0.008429658525536
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 120,
+        "rmse_hdg": 0.8249188682776669,
+        "rmse_tr": 0.0077816564570269
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 124,
+        "rmse_hdg": 1.354091930876541,
+        "rmse_tr": 0.011694947407825
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 128,
+        "rmse_hdg": 1.2464441732075595,
+        "rmse_tr": 0.0158331470974202
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 132,
+        "rmse_hdg": 0.7401831357037019,
+        "rmse_tr": 0.0188963834049038
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 136,
+        "rmse_hdg": 1.2791660523457011,
+        "rmse_tr": 0.0221067882723677
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 140,
+        "rmse_hdg": 1.141741818523474,
+        "rmse_tr": 0.0231317605708566
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 144,
+        "rmse_hdg": 1.5132354910509294,
+        "rmse_tr": 0.0290271653847775
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 148,
+        "rmse_hdg": 0.9382930274225286,
+        "rmse_tr": 0.0179102753915669
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 152,
+        "rmse_hdg": 2.1854980331477223,
+        "rmse_tr": 0.0189337230297845
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 156,
+        "rmse_hdg": 1.1272490339829015,
+        "rmse_tr": 0.0129504640546495
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 160,
+        "rmse_hdg": 0.9573405075821384,
+        "rmse_tr": 0.0093092991598432
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 164,
+        "rmse_hdg": 0.9298481849521584,
+        "rmse_tr": 0.0067151653276856
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 168,
+        "rmse_hdg": 1.514788847068695,
+        "rmse_tr": 1.4133858468690104
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 172,
+        "rmse_hdg": 9.43768893055922,
+        "rmse_tr": 2.995702824888012
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 176,
+        "rmse_hdg": 14.19159752741369,
+        "rmse_tr": 2.9392298671237764
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 180,
+        "rmse_hdg": 8.728820106046824,
+        "rmse_tr": 2.768867377598153
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 184,
+        "rmse_hdg": 7.676933769084652,
+        "rmse_tr": 2.5221723688261624
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 188,
+        "rmse_hdg": 7.289732094160687,
+        "rmse_tr": 2.2288521894994213
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 192,
+        "rmse_hdg": 8.0109346679465,
+        "rmse_tr": 1.9660431181463731
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 196,
+        "rmse_hdg": 9.289713181847011,
+        "rmse_tr": 1.6887112269261515
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 200,
+        "rmse_hdg": 10.75108517356221,
+        "rmse_tr": 1.4509945842467895
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 204,
+        "rmse_hdg": 11.457246772093136,
+        "rmse_tr": 1.2520461985395392
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 208,
+        "rmse_hdg": 10.226154669823377,
+        "rmse_tr": 1.035378676056185
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 212,
+        "rmse_hdg": 10.841563655216856,
+        "rmse_tr": 0.9106827422455142
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 216,
+        "rmse_hdg": 10.611969459924875,
+        "rmse_tr": 0.8126849806060789
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 220,
+        "rmse_hdg": 11.647777556099568,
+        "rmse_tr": 0.6970307939260355
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 224,
+        "rmse_hdg": 9.99418478306801,
+        "rmse_tr": 0.5896719813087108
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 228,
+        "rmse_hdg": 9.830565281200526,
+        "rmse_tr": 1.4545765948931526
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 232,
+        "rmse_hdg": 8.189343457729485,
+        "rmse_tr": 2.589232729951239
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 236,
+        "rmse_hdg": 7.950059119277039,
+        "rmse_tr": 2.344063776009518
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 240,
+        "rmse_hdg": 6.977612439962459,
+        "rmse_tr": 1.946997626558925
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 244,
+        "rmse_hdg": 5.95423414770651,
+        "rmse_tr": 1.6058877307760786
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 248,
+        "rmse_hdg": 5.081501221751962,
+        "rmse_tr": 1.3331990495546169
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 252,
+        "rmse_hdg": 4.874561669585098,
+        "rmse_tr": 1.0861930010768046
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 256,
+        "rmse_hdg": 4.373788571774843,
+        "rmse_tr": 0.8873397169265523
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 260,
+        "rmse_hdg": 2.6414844311485144,
+        "rmse_tr": 0.7012038873430466
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 264,
+        "rmse_hdg": 2.4312956437798103,
+        "rmse_tr": 0.5410811282177865
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 268,
+        "rmse_hdg": 3.050897465085603,
+        "rmse_tr": 0.4424272759680939
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 272,
+        "rmse_hdg": 2.1031316332238106,
+        "rmse_tr": 0.3331969875814206
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 276,
+        "rmse_hdg": 1.88788755040788,
+        "rmse_tr": 0.2601543746638069
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 280,
+        "rmse_hdg": 2.7597625240569528,
+        "rmse_tr": 0.2123744261720132
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 284,
+        "rmse_hdg": 1.4212155442396484,
+        "rmse_tr": 0.1604646902330671
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 288,
+        "rmse_hdg": 1.1786008654332447,
+        "rmse_tr": 0.1250783661199365
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 292,
+        "rmse_hdg": 1.580867817230634,
+        "rmse_tr": 0.0990187005345735
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 296,
+        "rmse_hdg": 0.8940908832231117,
+        "rmse_tr": 0.0781909669554791
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 300,
+        "rmse_hdg": 0.6830925947173948,
+        "rmse_tr": 0.061121763718008
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 304,
+        "rmse_hdg": 0.7906768385463812,
+        "rmse_tr": 0.0485749061434946
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 308,
+        "rmse_hdg": 0.6003796417981875,
+        "rmse_tr": 0.0388329204964771
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 312,
+        "rmse_hdg": 0.4500147056420719,
+        "rmse_tr": 0.0286808349620028
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 316,
+        "rmse_hdg": 0.5877637418352867,
+        "rmse_tr": 0.0243486250236135
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 320,
+        "rmse_hdg": 0.4614407180038244,
+        "rmse_tr": 0.017717206898658
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 324,
+        "rmse_hdg": 0.561839735946905,
+        "rmse_tr": 0.0145516656167678
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 328,
+        "rmse_hdg": 0.4487410089914726,
+        "rmse_tr": 0.0114058084217395
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 332,
+        "rmse_hdg": 1.5877297359077551,
+        "rmse_tr": 0.0119605840755613
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 336,
+        "rmse_hdg": 1.342557157897651,
+        "rmse_tr": 0.0106521124665485
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 340,
+        "rmse_hdg": 0.7571686811831995,
+        "rmse_tr": 0.0075876059930575
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 344,
+        "rmse_hdg": 1.062846763763826,
+        "rmse_tr": 0.0076435629162095
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 348,
+        "rmse_hdg": 0.7198249004611781,
+        "rmse_tr": 0.0069743897708728
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 352,
+        "rmse_hdg": 0.4217585585262504,
+        "rmse_tr": 0.006912175418353
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 356,
+        "rmse_hdg": 0.7551420221946401,
+        "rmse_tr": 0.0052121315974823
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 360,
+        "rmse_hdg": 0.5300225878790178,
+        "rmse_tr": 0.0054837917384767
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 364,
+        "rmse_hdg": 0.439174962728211,
+        "rmse_tr": 0.0058801528197061
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 368,
+        "rmse_hdg": 2.971112453362599,
+        "rmse_tr": 0.0174488538305528
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 372,
+        "rmse_hdg": 0.3437664357072116,
+        "rmse_tr": 0.0107096597328861
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 376,
+        "rmse_hdg": 0.4207454819286615,
+        "rmse_tr": 0.0081202060613554
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 380,
+        "rmse_hdg": 1.8052015892353352,
+        "rmse_tr": 0.0110032507822814
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 384,
+        "rmse_hdg": 0.4494359209707481,
+        "rmse_tr": 0.0086031885333971
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 388,
+        "rmse_hdg": 0.4035501241515152,
+        "rmse_tr": 0.005308394677683
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 392,
+        "rmse_hdg": 0.3616530903317098,
+        "rmse_tr": 0.0049496621025659
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 396,
+        "rmse_hdg": 0.3667716299980504,
+        "rmse_tr": 0.005980360715351
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 400,
+        "rmse_hdg": 0.3384803080223688,
+        "rmse_tr": 0.0039477499578531
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 404,
+        "rmse_hdg": 0.3878181805646439,
+        "rmse_tr": 0.0044400086115443
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 408,
+        "rmse_hdg": 0.3641256651212617,
+        "rmse_tr": 0.0039118232464045
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 412,
+        "rmse_hdg": 0.3462676938287379,
+        "rmse_tr": 0.0044388239314864
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 416,
+        "rmse_hdg": 1.6935550737660665,
+        "rmse_tr": 0.0104160787712889
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 420,
+        "rmse_hdg": 0.3681226503684455,
+        "rmse_tr": 0.0085714226190455
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 424,
+        "rmse_hdg": 1.4671272950906509,
+        "rmse_tr": 0.0118932170211053
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 428,
+        "rmse_hdg": 0.4350328989724851,
+        "rmse_tr": 0.0056459296611922
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 432,
+        "rmse_hdg": 0.430156560645852,
+        "rmse_tr": 0.0040673496694202
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 436,
+        "rmse_hdg": 1.096270475395504,
+        "rmse_tr": 0.0067423699274666
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 440,
+        "rmse_hdg": 0.3925030785441903,
+        "rmse_tr": 0.0055923519202568
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 444,
+        "rmse_hdg": 1.493905210439328,
+        "rmse_tr": 0.0081906450702412
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 448,
+        "rmse_hdg": 1.2951097926430826,
+        "rmse_tr": 0.0104322292080839
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 452,
+        "rmse_hdg": 0.4497647292622114,
+        "rmse_tr": 0.0068944924377379
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 456,
+        "rmse_hdg": 0.4592573715612332,
+        "rmse_tr": 0.0068821895740624
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 460,
+        "rmse_hdg": 0.4690870356968109,
+        "rmse_tr": 0.0051855852242198
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 464,
+        "rmse_hdg": 0.4855652490768984,
+        "rmse_tr": 0.0043085992825717
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 468,
+        "rmse_hdg": 0.4300159283446835,
+        "rmse_tr": 0.0040652385395646
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 472,
+        "rmse_hdg": 1.4412948630842115,
+        "rmse_tr": 0.0069256343943862
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 476,
+        "rmse_hdg": 1.8923726705710848,
+        "rmse_tr": 0.0091216478478101
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 480,
+        "rmse_hdg": 0.5771838324750522,
+        "rmse_tr": 0.0065758806164918
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 484,
+        "rmse_hdg": 0.5116327350312471,
+        "rmse_tr": 0.006698797570377
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 488,
+        "rmse_hdg": 1.333699893306366,
+        "rmse_tr": 0.0113495029061283
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 492,
+        "rmse_hdg": 0.5476448898448087,
+        "rmse_tr": 0.004866854082127
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 496,
+        "rmse_hdg": 0.8359647039805961,
+        "rmse_tr": 0.008616875764754
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 500,
+        "rmse_hdg": 0.5682666865363695,
+        "rmse_tr": 0.008562054880914
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 504,
+        "rmse_hdg": 0.5002520491472867,
+        "rmse_tr": 0.0058427034066938
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 508,
+        "rmse_hdg": 0.5750592584116289,
+        "rmse_tr": 0.0047667225465319
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 512,
+        "rmse_hdg": 0.5501344792007496,
+        "rmse_tr": 0.0077108711729982
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 516,
+        "rmse_hdg": 1.4284196192630734,
+        "rmse_tr": 0.007989884909657
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 520,
+        "rmse_hdg": 1.0667034097552923,
+        "rmse_tr": 0.0054592261983665
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 524,
+        "rmse_hdg": 1.4935922838739348,
+        "rmse_tr": 0.0100020147224178
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 528,
+        "rmse_hdg": 0.5376262911963168,
+        "rmse_tr": 0.0069372027942604
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 532,
+        "rmse_hdg": 0.4490873545923969,
+        "rmse_tr": 0.0047632727324065
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 536,
+        "rmse_hdg": 0.6706581490902629,
+        "rmse_tr": 0.0062489999199871
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 540,
+        "rmse_hdg": 0.4411856036206386,
+        "rmse_tr": 0.0043210470222413
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 544,
+        "rmse_hdg": 0.7133207347247332,
+        "rmse_tr": 0.0052760975997751
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 548,
+        "rmse_hdg": 0.5281941320157681,
+        "rmse_tr": 0.007313957383164
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 552,
+        "rmse_hdg": 1.0874372249973123,
+        "rmse_tr": 0.0071818727205825
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 556,
+        "rmse_hdg": 0.5090978265666882,
+        "rmse_tr": 0.0060757776972882
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 560,
+        "rmse_hdg": 0.4844497386682915,
+        "rmse_tr": 0.0080996087542443
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 564,
+        "rmse_hdg": 4.7662010700626825,
+        "rmse_tr": 2.5449842917917325
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 568,
+        "rmse_hdg": 14.379636745628586,
+        "rmse_tr": 2.990926358897495
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 572,
+        "rmse_hdg": 14.154157471065323,
+        "rmse_tr": 2.912006680844966
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 576,
+        "rmse_hdg": 6.730988733666082,
+        "rmse_tr": 2.7550350920371534
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 580,
+        "rmse_hdg": 7.535188192466217,
+        "rmse_tr": 2.534089521028852
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 584,
+        "rmse_hdg": 6.162121620253861,
+        "rmse_tr": 2.2966222851831777
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 588,
+        "rmse_hdg": 6.008672235668579,
+        "rmse_tr": 2.0319314091592213
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 592,
+        "rmse_hdg": 7.668300166024407,
+        "rmse_tr": 1.7874350704213628
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 596,
+        "rmse_hdg": 9.900624593522704,
+        "rmse_tr": 1.548767013508918
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 600,
+        "rmse_hdg": 11.064414995940275,
+        "rmse_tr": 1.3523795702721748
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 604,
+        "rmse_hdg": 12.305805361319337,
+        "rmse_tr": 1.1587019874889362
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 608,
+        "rmse_hdg": 13.009295788230649,
+        "rmse_tr": 0.9780681678420712
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 612,
+        "rmse_hdg": 12.800271258079752,
+        "rmse_tr": 0.8514577700775019
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 616,
+        "rmse_hdg": 12.280979836345075,
+        "rmse_tr": 0.728049428855722
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 620,
+        "rmse_hdg": 12.388445555839526,
+        "rmse_tr": 0.6134218889172581
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 624,
+        "rmse_hdg": 10.689197566133114,
+        "rmse_tr": 2.163428086444611
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 628,
+        "rmse_hdg": 8.662058630731048,
+        "rmse_tr": 2.4017270129476045
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 632,
+        "rmse_hdg": 10.019125935282092,
+        "rmse_tr": 2.1370555322752307
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 636,
+        "rmse_hdg": 8.085358405658045,
+        "rmse_tr": 1.7526535352985544
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 640,
+        "rmse_hdg": 5.344042415001338,
+        "rmse_tr": 1.473715663394175
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 644,
+        "rmse_hdg": 6.31459152707807,
+        "rmse_tr": 1.2536817720986086
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 648,
+        "rmse_hdg": 4.944285111435009,
+        "rmse_tr": 0.9943611911939402
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 652,
+        "rmse_hdg": 3.5915263668579147,
+        "rmse_tr": 0.7886175916693787
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 656,
+        "rmse_hdg": 2.979918648472664,
+        "rmse_tr": 0.6379344507744102
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 660,
+        "rmse_hdg": 3.6323928865407424,
+        "rmse_tr": 0.495384217842748
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 664,
+        "rmse_hdg": 2.166279118071192,
+        "rmse_tr": 0.3912830677788585
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 668,
+        "rmse_hdg": 3.757686229197624,
+        "rmse_tr": 0.3136384265498978
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 672,
+        "rmse_hdg": 1.935432423688998,
+        "rmse_tr": 0.2332285834397948
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 676,
+        "rmse_hdg": 2.5185812416096955,
+        "rmse_tr": 0.1825373700659353
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 680,
+        "rmse_hdg": 1.728173988154357,
+        "rmse_tr": 0.1465838349432387
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 684,
+        "rmse_hdg": 1.3761621351505866,
+        "rmse_tr": 0.1110298639756189
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 688,
+        "rmse_hdg": 3.794018662571429,
+        "rmse_tr": 0.0922975105176796
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 692,
+        "rmse_hdg": 1.6259095356697484,
+        "rmse_tr": 0.068816951815253
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 696,
+        "rmse_hdg": 1.5902541725564916,
+        "rmse_tr": 0.0511299393158689
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 700,
+        "rmse_hdg": 2.046228586588368,
+        "rmse_tr": 0.0454792527266162
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 704,
+        "rmse_hdg": 1.09270951515352,
+        "rmse_tr": 0.0350272590026601
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 708,
+        "rmse_hdg": 0.8556982204284662,
+        "rmse_tr": 0.027267861118907
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 712,
+        "rmse_hdg": 0.6454107780815008,
+        "rmse_tr": 0.0243155046856104
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 716,
+        "rmse_hdg": 0.7176870255666232,
+        "rmse_tr": 0.0172220788524498
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 720,
+        "rmse_hdg": 2.5222238289807386,
+        "rmse_tr": 0.0209804256598755
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 724,
+        "rmse_hdg": 0.6503317834547439,
+        "rmse_tr": 0.0155116131610204
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 728,
+        "rmse_hdg": 1.05116829980767,
+        "rmse_tr": 0.009611472881869
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 732,
+        "rmse_hdg": 1.4397574200438863,
+        "rmse_tr": 0.009831676212267
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 736,
+        "rmse_hdg": 0.874831490623367,
+        "rmse_tr": 0.0080063159999097
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 740,
+        "rmse_hdg": 0.5043064544500695,
+        "rmse_tr": 0.007685529331875
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 744,
+        "rmse_hdg": 0.8811154201134174,
+        "rmse_tr": 0.0060671471032605
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 748,
+        "rmse_hdg": 0.7125809579420594,
+        "rmse_tr": 0.0068772834045884
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 752,
+        "rmse_hdg": 0.7262352560009906,
+        "rmse_tr": 0.0057001934951677
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 756,
+        "rmse_hdg": 0.7663844142612346,
+        "rmse_tr": 0.0049234277536154
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 760,
+        "rmse_hdg": 0.5483721364183273,
+        "rmse_tr": 0.0041510159399035
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 764,
+        "rmse_hdg": 0.5149885778287885,
+        "rmse_tr": 0.0037743133384061
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 768,
+        "rmse_hdg": 0.5939827379290963,
+        "rmse_tr": 0.0031111340262961
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 772,
+        "rmse_hdg": 1.2031945573585114,
+        "rmse_tr": 0.0079905926831851
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 776,
+        "rmse_hdg": 0.4887347377009502,
+        "rmse_tr": 0.0070367138968238
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 780,
+        "rmse_hdg": 1.2548556357871088,
+        "rmse_tr": 0.0116959765161642
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 784,
+        "rmse_hdg": 1.3084056607697514,
+        "rmse_tr": 0.0124110446720147
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarOnly",
+        "time": 788,
+        "rmse_hdg": 1.600389535915137,
+        "rmse_tr": 0.0121229259394476
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 4,
+        "rmse_hdg": 5.2553658740185405,
+        "rmse_tr": 0.0
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 8,
+        "rmse_hdg": 4.526810406258743,
+        "rmse_tr": 0.0001374812674552
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 12,
+        "rmse_hdg": 2.3328656778868067,
+        "rmse_tr": 0.000993052791222
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 16,
+        "rmse_hdg": 1.9800322009448543,
+        "rmse_tr": 0.0017738877789615
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 20,
+        "rmse_hdg": 1.5585742495226749,
+        "rmse_tr": 0.0020483419387364
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 24,
+        "rmse_hdg": 1.1616306481459002,
+        "rmse_tr": 0.0016459194535145
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 28,
+        "rmse_hdg": 0.8800286018852195,
+        "rmse_tr": 0.0013240450287264
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 32,
+        "rmse_hdg": 0.5991317760037613,
+        "rmse_tr": 0.0012839127913332
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 36,
+        "rmse_hdg": 0.4023355161998738,
+        "rmse_tr": 0.0011069467062388
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 40,
+        "rmse_hdg": 0.2546837118927089,
+        "rmse_tr": 0.0008593702586076
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 44,
+        "rmse_hdg": 0.1728923966573368,
+        "rmse_tr": 0.0009094631865398
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 48,
+        "rmse_hdg": 0.1321780408492978,
+        "rmse_tr": 0.0007677328917686
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 52,
+        "rmse_hdg": 0.1409104085695704,
+        "rmse_tr": 0.0006924545062625
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 56,
+        "rmse_hdg": 0.1286481075277434,
+        "rmse_tr": 0.0007736213110339
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 60,
+        "rmse_hdg": 0.1416070610067258,
+        "rmse_tr": 0.0007118211993156
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 64,
+        "rmse_hdg": 0.1279041025904151,
+        "rmse_tr": 0.0009286178337082
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 68,
+        "rmse_hdg": 0.1307926275039843,
+        "rmse_tr": 0.0008030353490426
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 72,
+        "rmse_hdg": 0.1392924587998157,
+        "rmse_tr": 0.0006984380428203
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 76,
+        "rmse_hdg": 0.134668174567636,
+        "rmse_tr": 0.0008524002621401
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 80,
+        "rmse_hdg": 0.1470939965995094,
+        "rmse_tr": 0.0008360458137803
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 84,
+        "rmse_hdg": 0.1477922885458953,
+        "rmse_tr": 0.0008537926784157
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 88,
+        "rmse_hdg": 0.1452008101262667,
+        "rmse_tr": 0.0009263092250905
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 92,
+        "rmse_hdg": 0.1284928118011424,
+        "rmse_tr": 0.0008784137625601
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 96,
+        "rmse_hdg": 0.1418009468671601,
+        "rmse_tr": 0.0008773408473662
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 100,
+        "rmse_hdg": 0.1322709084430094,
+        "rmse_tr": 0.0007649526406078
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 104,
+        "rmse_hdg": 0.1278227940027394,
+        "rmse_tr": 0.0009349509791071
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 108,
+        "rmse_hdg": 0.1341741506502004,
+        "rmse_tr": 0.0008600164988989
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 112,
+        "rmse_hdg": 0.1370595645406834,
+        "rmse_tr": 0.0007895866633727
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 116,
+        "rmse_hdg": 0.1342637547994351,
+        "rmse_tr": 0.0007015272398327
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 120,
+        "rmse_hdg": 0.1266596309644112,
+        "rmse_tr": 0.0006852168885107
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 124,
+        "rmse_hdg": 0.1173879645045703,
+        "rmse_tr": 0.0015914863955964
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 128,
+        "rmse_hdg": 0.1228732114293284,
+        "rmse_tr": 0.0024627409867263
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 132,
+        "rmse_hdg": 0.1337827570614258,
+        "rmse_tr": 0.0058074833924891
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 136,
+        "rmse_hdg": 0.1538460769230579,
+        "rmse_tr": 0.0067361481803544
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 140,
+        "rmse_hdg": 0.1614110182719002,
+        "rmse_tr": 0.003949284764727
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 144,
+        "rmse_hdg": 0.1521512405470297,
+        "rmse_tr": 0.0022754321487169
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 148,
+        "rmse_hdg": 0.157942988620328,
+        "rmse_tr": 0.001164362804602
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 152,
+        "rmse_hdg": 0.1596234341146772,
+        "rmse_tr": 0.0012815012715491
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 156,
+        "rmse_hdg": 0.1821887605740134,
+        "rmse_tr": 0.0012997451825
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 160,
+        "rmse_hdg": 0.169626919813648,
+        "rmse_tr": 0.001090016809945
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 164,
+        "rmse_hdg": 0.1487260425637591,
+        "rmse_tr": 0.0009852358373366
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 168,
+        "rmse_hdg": 1.369994665286191,
+        "rmse_tr": 1.4379539999326578
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 172,
+        "rmse_hdg": 10.608104244248532,
+        "rmse_tr": 2.9933415061860638
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 176,
+        "rmse_hdg": 10.495717591195524,
+        "rmse_tr": 2.8736119904638664
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 180,
+        "rmse_hdg": 6.171072755007425,
+        "rmse_tr": 2.6229591069757623
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 184,
+        "rmse_hdg": 5.919110431221389,
+        "rmse_tr": 2.3022660509963986
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 188,
+        "rmse_hdg": 7.152288863639072,
+        "rmse_tr": 1.9546688203524567
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 192,
+        "rmse_hdg": 6.193314642079343,
+        "rmse_tr": 1.6137650672879105
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 196,
+        "rmse_hdg": 5.558543873532121,
+        "rmse_tr": 1.343225793496691
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 200,
+        "rmse_hdg": 4.881432349740394,
+        "rmse_tr": 1.122815430778849
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 204,
+        "rmse_hdg": 4.518614560210057,
+        "rmse_tr": 0.9533788843136892
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 208,
+        "rmse_hdg": 4.105444212856453,
+        "rmse_tr": 0.8056323608021249
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 212,
+        "rmse_hdg": 3.9169271707530657,
+        "rmse_tr": 0.7271772256077764
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 216,
+        "rmse_hdg": 3.792993987439211,
+        "rmse_tr": 0.6480699263539733
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 220,
+        "rmse_hdg": 3.600671257445262,
+        "rmse_tr": 0.5894719561429855
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 224,
+        "rmse_hdg": 3.2887389751459195,
+        "rmse_tr": 0.574186836150237
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 228,
+        "rmse_hdg": 3.0274999967365344,
+        "rmse_tr": 1.336389737993774
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 232,
+        "rmse_hdg": 4.648085738336572,
+        "rmse_tr": 2.224988248627217
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 236,
+        "rmse_hdg": 3.32684907115848,
+        "rmse_tr": 1.445958424159777
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 240,
+        "rmse_hdg": 1.0994696718518595,
+        "rmse_tr": 0.7008217311950695
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 244,
+        "rmse_hdg": 0.539450028578492,
+        "rmse_tr": 0.2889207915675159
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 248,
+        "rmse_hdg": 0.3404014605762098,
+        "rmse_tr": 0.1123130767754365
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 252,
+        "rmse_hdg": 0.2088093770217313,
+        "rmse_tr": 0.0426063113014006
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 256,
+        "rmse_hdg": 0.1562307706288202,
+        "rmse_tr": 0.0163281430369027
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 260,
+        "rmse_hdg": 0.1514663427304305,
+        "rmse_tr": 0.0061119251581701
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 264,
+        "rmse_hdg": 0.1382526423018664,
+        "rmse_tr": 0.002334161593555
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 268,
+        "rmse_hdg": 0.1281997364029782,
+        "rmse_tr": 0.0014116754535681
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 272,
+        "rmse_hdg": 0.1220307198972415,
+        "rmse_tr": 0.000944911182523
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 276,
+        "rmse_hdg": 0.1068315611424843,
+        "rmse_tr": 0.000754192957766
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 280,
+        "rmse_hdg": 0.139135475546516,
+        "rmse_tr": 0.0008415635250334
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 284,
+        "rmse_hdg": 0.1565225704762536,
+        "rmse_tr": 0.001047730750731
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 288,
+        "rmse_hdg": 0.1358421223029921,
+        "rmse_tr": 0.0008989529678221
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 292,
+        "rmse_hdg": 0.1388093196110558,
+        "rmse_tr": 0.0008036481444861
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 296,
+        "rmse_hdg": 0.1330991533233197,
+        "rmse_tr": 0.0010261627714182
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 300,
+        "rmse_hdg": 0.1275589423905035,
+        "rmse_tr": 0.0009358476429477
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 304,
+        "rmse_hdg": 0.13854571539473,
+        "rmse_tr": 0.0007061713433025
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 308,
+        "rmse_hdg": 0.1456731889061992,
+        "rmse_tr": 0.0007562395818024
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 312,
+        "rmse_hdg": 0.1428922034898395,
+        "rmse_tr": 0.0008569384075553
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 316,
+        "rmse_hdg": 0.1284684873777831,
+        "rmse_tr": 0.0007486781893055
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 320,
+        "rmse_hdg": 0.1431272743632972,
+        "rmse_tr": 0.0008337915406942
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 324,
+        "rmse_hdg": 0.1403334272024244,
+        "rmse_tr": 0.0008070777970225
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 328,
+        "rmse_hdg": 0.1158303356926278,
+        "rmse_tr": 0.0009108097869945
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 332,
+        "rmse_hdg": 0.1290728371784598,
+        "rmse_tr": 0.0009622959594186
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 336,
+        "rmse_hdg": 0.1511890587572037,
+        "rmse_tr": 0.0008110184122767
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 340,
+        "rmse_hdg": 0.1327905619136139,
+        "rmse_tr": 0.0008421359643526
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 344,
+        "rmse_hdg": 0.1386166279218464,
+        "rmse_tr": 0.0008707726644265
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 348,
+        "rmse_hdg": 0.1433580322958194,
+        "rmse_tr": 0.0008776316357878
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 352,
+        "rmse_hdg": 0.1283015177668562,
+        "rmse_tr": 0.0008270673515744
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 356,
+        "rmse_hdg": 0.1285066281884806,
+        "rmse_tr": 0.0009539043740424
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 360,
+        "rmse_hdg": 0.1372719238631167,
+        "rmse_tr": 0.0008757622162776
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 364,
+        "rmse_hdg": 0.1335898892259497,
+        "rmse_tr": 0.0006866560992516
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 368,
+        "rmse_hdg": 0.1372072845229965,
+        "rmse_tr": 0.0007683111436279
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 372,
+        "rmse_hdg": 0.1440895747636023,
+        "rmse_tr": 0.0008465411652391
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 376,
+        "rmse_hdg": 0.1434650827384722,
+        "rmse_tr": 0.0007931545099506
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 380,
+        "rmse_hdg": 0.1406230145273703,
+        "rmse_tr": 0.0008489037541986
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 384,
+        "rmse_hdg": 0.1480233613081315,
+        "rmse_tr": 0.000781317954791
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 388,
+        "rmse_hdg": 0.1462720128052659,
+        "rmse_tr": 0.0008909774578797
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 392,
+        "rmse_hdg": 0.1532795250338819,
+        "rmse_tr": 0.0009672238032233
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 396,
+        "rmse_hdg": 0.1518413063462159,
+        "rmse_tr": 0.000938880502854
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 400,
+        "rmse_hdg": 0.1484254032652371,
+        "rmse_tr": 0.0008571555979304
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 404,
+        "rmse_hdg": 0.1365052140739976,
+        "rmse_tr": 0.0009009254501159
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 408,
+        "rmse_hdg": 0.1394067006564575,
+        "rmse_tr": 0.0006670077427279
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 412,
+        "rmse_hdg": 0.1337594201975423,
+        "rmse_tr": 0.0007614446662745
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 416,
+        "rmse_hdg": 0.125140470899884,
+        "rmse_tr": 0.0008346450158034
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 420,
+        "rmse_hdg": 0.1314531550507221,
+        "rmse_tr": 0.0007955231881329
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 424,
+        "rmse_hdg": 0.1293936178230321,
+        "rmse_tr": 0.0006489307444643
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 428,
+        "rmse_hdg": 0.1245551524987467,
+        "rmse_tr": 0.0008164180678662
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 432,
+        "rmse_hdg": 0.1249494743247059,
+        "rmse_tr": 0.0007660314117001
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 436,
+        "rmse_hdg": 0.134639436190804,
+        "rmse_tr": 0.0008222808725328
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 440,
+        "rmse_hdg": 0.1308256792903232,
+        "rmse_tr": 0.0009364262907203
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 444,
+        "rmse_hdg": 0.1268830855793761,
+        "rmse_tr": 0.0008192438034897
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 448,
+        "rmse_hdg": 0.1238686172661773,
+        "rmse_tr": 0.0008217375038614
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 452,
+        "rmse_hdg": 0.1312740696250881,
+        "rmse_tr": 0.0007513603482227
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 456,
+        "rmse_hdg": 0.1372051353610182,
+        "rmse_tr": 0.0007469761856491
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 460,
+        "rmse_hdg": 0.1295114679825033,
+        "rmse_tr": 0.0008585758803815
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 464,
+        "rmse_hdg": 0.1253472991032952,
+        "rmse_tr": 0.0008211579271351
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 468,
+        "rmse_hdg": 0.1287990263518673,
+        "rmse_tr": 0.000746365065374
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 472,
+        "rmse_hdg": 0.138202749610852,
+        "rmse_tr": 0.0006243889746748
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 476,
+        "rmse_hdg": 0.1241341143703676,
+        "rmse_tr": 0.0008218870249535
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 480,
+        "rmse_hdg": 0.1261997974993959,
+        "rmse_tr": 0.0006691619966628
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 484,
+        "rmse_hdg": 0.1254275962906992,
+        "rmse_tr": 0.0007867069656672
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 488,
+        "rmse_hdg": 0.1328872747021982,
+        "rmse_tr": 0.0008608781046763
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 492,
+        "rmse_hdg": 0.1482231530253741,
+        "rmse_tr": 0.0007558932268824
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 496,
+        "rmse_hdg": 0.1280558894030679,
+        "rmse_tr": 0.0009299266172733
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 500,
+        "rmse_hdg": 0.1330578516732177,
+        "rmse_tr": 0.000895389844131
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 504,
+        "rmse_hdg": 0.1347065223962075,
+        "rmse_tr": 0.0008635859719199
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 508,
+        "rmse_hdg": 0.1443800821031345,
+        "rmse_tr": 0.0007938317951045
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 512,
+        "rmse_hdg": 0.1450701927507599,
+        "rmse_tr": 0.0007945043193098
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 516,
+        "rmse_hdg": 0.1388563325206356,
+        "rmse_tr": 0.0007786856563154
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 520,
+        "rmse_hdg": 0.1434659945160916,
+        "rmse_tr": 0.0007330118670979
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 524,
+        "rmse_hdg": 0.1363033253124372,
+        "rmse_tr": 0.0010286765471208
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 528,
+        "rmse_hdg": 0.1533163486969924,
+        "rmse_tr": 0.0010743861296366
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 532,
+        "rmse_hdg": 0.1366085823142322,
+        "rmse_tr": 0.0009119203032369
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 536,
+        "rmse_hdg": 0.1366794501189021,
+        "rmse_tr": 0.0008408308191491
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 540,
+        "rmse_hdg": 0.1349362686981124,
+        "rmse_tr": 0.0007462675486963
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 544,
+        "rmse_hdg": 0.1425337225675578,
+        "rmse_tr": 0.0009155740614876
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 548,
+        "rmse_hdg": 0.1455095788691001,
+        "rmse_tr": 0.0008663603204084
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 552,
+        "rmse_hdg": 0.1471410719327024,
+        "rmse_tr": 0.0008232993272062
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 556,
+        "rmse_hdg": 0.1510484897590946,
+        "rmse_tr": 0.0007840675383931
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 560,
+        "rmse_hdg": 0.1372448492609055,
+        "rmse_tr": 0.0007741385796745
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 564,
+        "rmse_hdg": 5.394659796979833,
+        "rmse_tr": 2.6018649431528966
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 568,
+        "rmse_hdg": 11.807401981446962,
+        "rmse_tr": 2.9565671498107746
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 572,
+        "rmse_hdg": 8.41368051013881,
+        "rmse_tr": 2.7695876921951075
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 576,
+        "rmse_hdg": 5.553179319305394,
+        "rmse_tr": 2.4926657929090474
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 580,
+        "rmse_hdg": 6.073053357185771,
+        "rmse_tr": 2.146393686602559
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 584,
+        "rmse_hdg": 6.96049384983895,
+        "rmse_tr": 1.8018261009956444
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 588,
+        "rmse_hdg": 6.0956864125832215,
+        "rmse_tr": 1.483320098502238
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 592,
+        "rmse_hdg": 5.306008361402332,
+        "rmse_tr": 1.2204713972808852
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 596,
+        "rmse_hdg": 4.821229640335172,
+        "rmse_tr": 1.0200157111150308
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 600,
+        "rmse_hdg": 4.247991918424908,
+        "rmse_tr": 0.840667705791927
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 604,
+        "rmse_hdg": 3.904665248431047,
+        "rmse_tr": 0.7266070161594942
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 608,
+        "rmse_hdg": 4.048963215953827,
+        "rmse_tr": 0.686591186873948
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 612,
+        "rmse_hdg": 3.402593146647237,
+        "rmse_tr": 0.5951405447624404
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 616,
+        "rmse_hdg": 3.377364942110335,
+        "rmse_tr": 0.583165494538446
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 620,
+        "rmse_hdg": 3.031857760731916,
+        "rmse_tr": 0.562833808385805
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 624,
+        "rmse_hdg": 2.9716522487105443,
+        "rmse_tr": 2.088884766044587
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 628,
+        "rmse_hdg": 4.17424604379398,
+        "rmse_tr": 1.8309265694067929
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 632,
+        "rmse_hdg": 1.7681820733518845,
+        "rmse_tr": 1.0173224758967356
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 636,
+        "rmse_hdg": 0.6408305724024073,
+        "rmse_tr": 0.4459488746925935
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 640,
+        "rmse_hdg": 0.4190021463367609,
+        "rmse_tr": 0.1800976949518301
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 644,
+        "rmse_hdg": 0.2752938671433007,
+        "rmse_tr": 0.0708134750718269
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 648,
+        "rmse_hdg": 0.1996503566254321,
+        "rmse_tr": 0.0270019081984517
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 652,
+        "rmse_hdg": 0.1548867295474309,
+        "rmse_tr": 0.009849430413038
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 656,
+        "rmse_hdg": 0.1330728719978081,
+        "rmse_tr": 0.0034347708812541
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 660,
+        "rmse_hdg": 0.122996486101109,
+        "rmse_tr": 0.0015929505721847
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 664,
+        "rmse_hdg": 0.1320106212534106,
+        "rmse_tr": 0.0010121088188373
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 668,
+        "rmse_hdg": 0.1258410064490491,
+        "rmse_tr": 0.0010008215803111
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 672,
+        "rmse_hdg": 0.1285695803302687,
+        "rmse_tr": 0.0008702070293743
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 676,
+        "rmse_hdg": 0.1406451301381564,
+        "rmse_tr": 0.0008141080578305
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 680,
+        "rmse_hdg": 0.1439623993054892,
+        "rmse_tr": 0.0007763308928365
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 684,
+        "rmse_hdg": 0.1398333950756341,
+        "rmse_tr": 0.0009435234424679
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 688,
+        "rmse_hdg": 0.1506098713010985,
+        "rmse_tr": 0.0008267867856278
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 692,
+        "rmse_hdg": 0.1347129771287702,
+        "rmse_tr": 0.0008234703687904
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 696,
+        "rmse_hdg": 0.1459258447276164,
+        "rmse_tr": 0.0008196506832333
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 700,
+        "rmse_hdg": 0.1445543482430037,
+        "rmse_tr": 0.0007867805087974
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 704,
+        "rmse_hdg": 0.1244865744427684,
+        "rmse_tr": 0.0009237604307034
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 708,
+        "rmse_hdg": 0.1187391675016712,
+        "rmse_tr": 0.0009165886100834
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 712,
+        "rmse_hdg": 0.1414668913772126,
+        "rmse_tr": 0.0011233424700796
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 716,
+        "rmse_hdg": 0.150338581838426,
+        "rmse_tr": 0.0008477513977767
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 720,
+        "rmse_hdg": 0.1476715031826848,
+        "rmse_tr": 0.0007573466070178
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 724,
+        "rmse_hdg": 0.139562809436389,
+        "rmse_tr": 0.0008098139361057
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 728,
+        "rmse_hdg": 0.1412928441927239,
+        "rmse_tr": 0.0008761547002804
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 732,
+        "rmse_hdg": 0.1356440309629899,
+        "rmse_tr": 0.0007994553895375
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 736,
+        "rmse_hdg": 0.141921037045301,
+        "rmse_tr": 0.0008618688237868
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 740,
+        "rmse_hdg": 0.141608831731957,
+        "rmse_tr": 0.0009061393024111
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 744,
+        "rmse_hdg": 0.1324416953817237,
+        "rmse_tr": 0.000840329605663
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 748,
+        "rmse_hdg": 0.1285372011541284,
+        "rmse_tr": 0.0008737407045525
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 752,
+        "rmse_hdg": 0.1382151390316353,
+        "rmse_tr": 0.0007761425515161
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 756,
+        "rmse_hdg": 0.1384674840789608,
+        "rmse_tr": 0.0007416423968571
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 760,
+        "rmse_hdg": 0.137817512191545,
+        "rmse_tr": 0.0007448042248358
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 764,
+        "rmse_hdg": 0.1298304434866645,
+        "rmse_tr": 0.0009868010051556
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 768,
+        "rmse_hdg": 0.1258562369830886,
+        "rmse_tr": 0.000774105131313
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 772,
+        "rmse_hdg": 0.111707198933262,
+        "rmse_tr": 0.000813369513733
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 776,
+        "rmse_hdg": 0.1466469200117622,
+        "rmse_tr": 0.0006780761270259
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 780,
+        "rmse_hdg": 0.1468706565692828,
+        "rmse_tr": 0.0008487493308516
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 784,
+        "rmse_hdg": 0.1380522337522511,
+        "rmse_tr": 0.0008909819286892
+      },
+      {
+        "scenario": "turns_new_13",
+        "config": "IMM2_RadarADSB",
+        "time": 788,
+        "rmse_hdg": 0.1368096922439774,
+        "rmse_tr": 0.0009173441394974
+      }
+    ]
+  }
+}
