@@ -11,10 +11,25 @@
 <h1>Heading and Turn rate filter Evaluation</h1>
 <h2>Turn Scenario</h2>
 <div id="vis"></div>
-
 <script type="text/javascript">
-  var spec = "./data/data.vl.json";
+  var spec = "./data/data_01.vl.json";
   vegaEmbed('#vis', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+<br>
+<div id="vis2"></div>
+<script type="text/javascript">
+  var spec = "./data/data_02.vl.json";
+  vegaEmbed('#vis2', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+  <br>
+  <div id="vis3"></div>
+<script type="text/javascript">
+  var spec = "./data/data_03.vl.json";
+  vegaEmbed('#vis3', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
