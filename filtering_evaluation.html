@@ -11,28 +11,37 @@
 <h1>Heading and Turn rate filter Evaluation</h1>
 <h2>Turn Scenario</h2>
     <h3>100kts, 1g</h3>
-<div id="vis"></div>
-<script type="text/javascript">
-  var spec = "./data/data_01.vl.json";
-  vegaEmbed('#vis', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
-  <h3>200kts, 1g</h3>
+<div id="vis1"></div>
 <div id="vis2"></div>
+<div id="vis3"></div>
+<div id="vis4"></div>
+<div id="vis5"></div>
+<div id="vis6"></div>
+<div id="vis7"></div>
+<div id="vis8"></div>
+<div id="vis9"></div>
+<div id="vis10"></div>
+<div id="vis11"></div>
+<div id="vis12"></div>
+<div id="vis13"></div>
+<div id="vis14"></div>
+<div id="vis15"></div>
 <script type="text/javascript">
-  var spec = "./data/data_02.vl.json";
-  vegaEmbed('#vis2', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
-  <h3>300kts, 1g</h3>
-  <div id="vis3"></div>
-<script type="text/javascript">
-  var spec = "./data/data_03.vl.json";
-  vegaEmbed('#vis3', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+  vegaEmbed('#vis1', ./data/data_01.vl.json).catch(console.error);
+vegaEmbed('#vis2', ./data/data_02.vl.json).catch(console.error);
+vegaEmbed('#vis3', ./data/data_03.vl.json).catch(console.error);
+vegaEmbed('#vis4', ./data/data_04.vl.json).catch(console.error);
+vegaEmbed('#vis5', ./data/data_05.vl.json).catch(console.error);
+vegaEmbed('#vis6', ./data/data_06.vl.json).catch(console.error);
+vegaEmbed('#vis7', ./data/data_07.vl.json).catch(console.error);
+vegaEmbed('#vis8', ./data/data_08.vl.json).catch(console.error);
+vegaEmbed('#vis9', ./data/data_09.vl.json).catch(console.error);
+vegaEmbed('#vis10', ./data/data_10.vl.json).catch(console.error);
+vegaEmbed('#vis11', ./data/data_11.vl.json).catch(console.error);
+vegaEmbed('#vis12', ./data/data_12.vl.json).catch(console.error);
+vegaEmbed('#vis13', ./data/data_13.vl.json).catch(console.error);
+vegaEmbed('#vis14', ./data/data_14.vl.json).catch(console.error);
+vegaEmbed('#vis15', ./data/data_15.vl.json).catch(console.error);
 </script>
 </body>
 </html>
