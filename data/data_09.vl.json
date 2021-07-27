@@ -1,8 +1,8 @@
 {
   "config": {
     "view": {
-      "continuousWidth": 800,
-      "continuousHeight": 600
+      "continuousWidth": 600,
+      "continuousHeight": 400
     },
     "axisX": {
       "labelFontSize": 18,
@@ -61,7 +61,7 @@
     }
   },
   "selection": {
-    "selector028": {
+    "selector047": {
       "type": "interval",
       "bind": "scales",
       "encodings": [
@@ -70,7 +70,7 @@
       ]
     }
   },
-  "title": "Initial Speed: 400kts, Acceleration: 2g",
+  "title": "Initial Speed: 400kts, Turn rate: 2deg/sec",
   "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
   "datasets": {
     "data-127f5673a660613584d22861607e0d2c": [
