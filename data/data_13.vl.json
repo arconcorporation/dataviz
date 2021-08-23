@@ -1,8 +1,8 @@
 {
   "config": {
     "view": {
-      "continuousWidth": 600,
-      "continuousHeight": 400
+      "continuousWidth": 800,
+      "continuousHeight": 600
     },
     "axisX": {
       "labelFontSize": 18,
@@ -95,7 +95,7 @@
         }
       },
       "selection": {
-        "selector123": {
+        "selector138": {
           "type": "interval",
           "bind": "scales",
           "encodings": [
