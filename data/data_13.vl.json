@@ -91,11 +91,11 @@
             ],
             "zero": false
           },
-          "title": "Heading (degrees)"
+          "title": "Heading RMSE (degrees)"
         }
       },
       "selection": {
-        "selector138": {
+        "selector153": {
           "type": "interval",
           "bind": "scales",
           "encodings": [
