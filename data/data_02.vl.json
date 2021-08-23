@@ -22,65 +22,111 @@
       "titleFontSize": 18
     },
     "title": {
-      "fontSize": 25
+      "fontSize": 20
     }
   },
-  "data": {
-    "name": "data-a9c2b8120670187c02c79d8e1f80f955"
-  },
-  "mark": {
-    "type": "line",
-    "point": true,
-    "strokeWidth": 3
-  },
-  "encoding": {
-    "color": {
-      "type": "ordinal",
-      "field": "config",
-      "scale": {
-        "scheme": "category20"
+  "layer": [
+    {
+      "data": {
+        "name": "data-f6abfb9191b080f37ad4995a46cd9647"
       },
-      "sort": [
-        "IMM2_RadarOnly",
-        "IMM2_RadarADSB",
-        "IMM4_RadarOnly",
-        "IMM4_RadarADSB",
-        "IMM4tuned_RadarOnly",
-        "IMM4tuned_RadarADSB"
-      ],
-      "title": "Configuration"
-    },
-    "x": {
-      "type": "quantitative",
-      "field": "time",
-      "title": "Time of day (sec)"
-    },
-    "y": {
-      "type": "quantitative",
-      "field": "rmse_hdg",
-      "scale": {
-        "domain": [
-          0,
-          35
+      "mark": {
+        "type": "rule",
+        "strokeDash": [
+          5,
+          2
         ],
-        "zero": false
+        "strokeWidth": 4
       },
-      "title": "Heading (degrees)"
+      "encoding": {
+        "color": {
+          "type": "nominal",
+          "field": "color",
+          "scale": null
+        },
+        "x": {
+          "type": "quantitative",
+          "field": "tt"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-a9c2b8120670187c02c79d8e1f80f955"
+      },
+      "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "color": {
+          "type": "ordinal",
+          "field": "config",
+          "scale": {
+            "scheme": "category20"
+          },
+          "sort": [
+            "IMM2_RadarOnly",
+            "IMM2_RadarADSB",
+            "IMM4_RadarOnly",
+            "IMM4_RadarADSB",
+            "IMM4tuned_RadarOnly",
+            "IMM4tuned_RadarADSB"
+          ],
+          "title": "Configuration"
+        },
+        "x": {
+          "type": "quantitative",
+          "field": "time",
+          "title": "Report time (secs)"
+        },
+        "y": {
+          "type": "quantitative",
+          "field": "rmse_hdg",
+          "scale": {
+            "domain": [
+              0,
+              35
+            ],
+            "zero": false
+          },
+          "title": "Heading (degrees)"
+        }
+      },
+      "selection": {
+        "selector112": {
+          "type": "interval",
+          "bind": "scales",
+          "encodings": [
+            "x",
+            "y"
+          ]
+        }
+      },
+      "title": "Initial Speed: 200kts, Turn rate: 1deg/sec"
     }
-  },
-  "selection": {
-    "selector042": {
-      "type": "interval",
-      "bind": "scales",
-      "encodings": [
-        "x",
-        "y"
-      ]
-    }
-  },
-  "title": "Initial Speed: 200kts, Turn rate: 1deg/sec",
+  ],
   "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
   "datasets": {
+    "data-f6abfb9191b080f37ad4995a46cd9647": [
+      {
+        "tt": 250,
+        "color": "black"
+      },
+      {
+        "tt": 430,
+        "color": "black"
+      },
+      {
+        "tt": 930,
+        "color": "black"
+      },
+      {
+        "tt": 1110,
+        "color": "black"
+      }
+    ],
     "data-a9c2b8120670187c02c79d8e1f80f955": [
       {
         "scenario": "turns_new_02",
